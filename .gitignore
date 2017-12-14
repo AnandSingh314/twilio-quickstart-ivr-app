@@ -27,6 +27,9 @@ local.properties
 .loadpath
 nb-configuration.xml
 
+#ngrok.exe file
+ngrok.exe
+
 # Eclipse Core
 .project
 
