@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="speech dtmf" hints="Anand" timeout="3" numDigits="1" method="GET" action="/Anand.xml" >
+        <Say>Please press 1 or say Anand for Anand.</Say>
+    </Gather>
+    <Gather input="speech dtmf" hints="Piyush" timeout="3" numDigits="2" method="GET" action="/Piyush.xml" >
+        <Say>Please press 2 or say Piyush for Piyush.</Say>
+    </Gather>
+    <Gather input="speech dtmf" hints="Gorge" timeout="3" numDigits="3" method="GET" action="/Gorge.xml" >
+        <Say>Please press 3 or say Gorge for Gorge.</Say>
+    </Gather>
+    <Say>Sorry, we did not receive any inputs.</Say>
+    <Hangup/>
+</Response>
